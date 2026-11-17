@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Revak Akustik: Gaziantep’te taş revaklı avluda akustik konserler — ud, kanun, gitar ve vokal geceleri; hikâye galerisi, sıradaki konsere geri sayım ve yer ayırtma. Demo site; içerik kurgusaldır.",
+    "en": "Revak Acoustic: acoustic concerts in a stone-arcaded courtyard in Gaziantep — oud, qanun, guitar and vocal nights; a story gallery, a countdown to the next concert and seat booking. Demo site; content is fictional.",
+    "ar": "رواق أكوستيك: حفلات أكوستيك في فناء حجري بأروقة في غازي عنتاب — ليالي العود والقانون والغيتار والغناء؛ معرض قصص وعدّ تنازلي للحفلة القادمة وحجز المقاعد. موقع تجريبي؛ المحتوى افتراضي."
+  },
+  "keyword": {
+    "tr": "akustik konser, canlı müzik, konser mekânı, ud gecesi, avlu konseri, Gaziantep",
+    "en": "acoustic concert, live music, concert venue, oud night, courtyard concert, Gaziantep",
+    "ar": "حفلة أكوستيك، موسيقى حية، مكان حفلات، ليلة العود، حفلة في الفناء، غازي عنتاب"
+  },
+  "category": "Kurumsal",
+  "name": "Revak Akustik",
+  "domain": "muzik-2.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "nunito",
+    "heading": "dm-serif-display",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#B5482A",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "11px",
+    "--mx-radius-md": "18px",
+    "--mx-radius-lg": "25px",
+    "--mx-radius-xl": "34px"
+  },
+  "icon": "icon.png"
+}
