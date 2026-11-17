@@ -1,0 +1,53 @@
+{
+  "name": "Sayaç Ekolayzer — LED segmentli mikser kanalları",
+  "description": "Her rakam bir mikser kanalı: 12 LED segmentlik dikey sütun oran kadar yanar (üst üç segment tepe tonu), üstünde zirve çizgisi; kanalın altında rakam, büyük harfli etiket, not. Başta dB cetveli. Görünür olunca segmentler dipten yukarı sırayla yanar, zirveler kısa süre (≈2 sn) zıplayıp durur; hover'da kanal parlar ve zirve yeniden zıplar. sayac-sutun-grafik düz dolgu sütun, sayac-nokta-matris 10×10 nokta ızgarasıdır; bu modül ayrık LED segment yığını + zirve tutucu + dB cetvelli mikser paneli iskeletidir — oran «seviye metresi» olarak okunur (müzik/sahne dili). Sayılar sayfa diliyle biçimlenir (Intl), metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+  "version": "1.0.0",
+  "icon": "graphic_eq",
+  "category": "stats",
+  "subCategory": "equalizer",
+  "tags": [
+    "stats",
+    "equalizer",
+    "led",
+    "meter",
+    "music",
+    "rtl",
+    "fabrika"
+  ],
+  "desing": {
+    "max": "1200px",
+    "bosluk": "clamp(56px, 8vw, 104px)",
+    "yuvarlak": "18px",
+    "ust": "",
+    "baslik": "",
+    "metin": "",
+    "bg": "var(--mx-site-primary, #2563eb)",
+    "text": "var(--mx-site-primary-contrast, #ffffff)",
+    "muted": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 92%, var(--mx-site-primary, #2563eb))",
+    "kartBg": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 10%, transparent)",
+    "cizgi": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 28%, transparent)",
+    "accent": "var(--mx-site-primary-contrast, #ffffff)",
+    "accentInk": "var(--mx-site-primary-contrast, #ffffff)",
+    "accentText": "var(--mx-site-primary, #2563eb)",
+    "vurguBg": "var(--mx-site-primary-contrast, #ffffff)",
+    "vurguText": "var(--mx-site-primary, #2563eb)",
+    "bgcolor": "var(--mx-site-primary, #2563eb)",
+    "color": "var(--mx-site-primary-contrast, #ffffff)"
+  },
+  "data": [],
+  "veri": {
+    "statik": true,
+    "dinamik": false,
+    "kaynak": "data",
+    "alanlar": {
+      "sayi": "sayı (zorunlu; 1200 · \"4.9\")",
+      "onek": "önek (dil sözlüğü; ör. «%»)",
+      "sonek": "sonek (dil sözlüğü; ör. «+», «/5»)",
+      "etiket": "etiket (dil sözlüğü, zorunlu)",
+      "metin": "kısa not (dil sözlüğü)",
+      "ikon": "Material Symbols adı",
+      "ondalik": "ondalık basamak (yoksa sayıdan)",
+      "max": "oran tavanı (halka/çubuk/dolgu; yoksa % → 100, değilse listedeki en büyük)"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "zg9nx2veck",
+  "name": {
+    "tr": "Galeri",
+    "en": "Gallery",
+    "ar": "المعرض"
+  },
+  "description": {
+    "tr": "Konser hikâyeleri; görseller temsilîdir.",
+    "en": "Concert stories; images are representative.",
+    "ar": "قصص الحفلات؛ الصور تمثيلية."
+  },
+  "keyword": {
+    "tr": "konser galerisi",
+    "en": "concert gallery",
+    "ar": "معرض الحفلات"
+  },
+  "path": "referanslar",
+  "icon": "photo_library",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "4q3a9y",
+      "vcj8co"
+    ],
+    "footer": []
+  },
+  "index": 1,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Galeri",
+    "en": "Gallery",
+    "ar": "المعرض"
+  },
+  "date": "2026-11-16T22:42:39.418Z",
+  "update": "2026-11-16T22:47:24.820Z"
+}

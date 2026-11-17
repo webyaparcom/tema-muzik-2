@@ -1,0 +1,115 @@
+<footer class="modulex-alt-plak{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-alt-plak-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</footer>
+
+<style>
+  /* alt-plak — Footer bir plak kapağı: CSS oluklu disk (repeating-radial + conic yansıma) bağımsız rotate/translate özellikleriyle kayar ve döner (reduced-motion'da durur), gezinme numaralı parça listesi (CSS sayaç) — müzik, dans ve gece mekânları için nesne odaklı imza. */
+  .modulex-alt-plak { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-alt-plak *, .modulex-alt-plak *::before, .modulex-alt-plak *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-alt-plak :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-alt-plak :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-alt-plak :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-alt-plak :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-alt-plak img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-alt-plak) img { height: auto; }
+  .modulex-alt-plak [hidden] { display: none !important; }
+  .modulex-alt-plak :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-alt-plak :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-alt-plak-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-alt-plak-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-alt-plak--bassiz .modulex-alt-plak-bas { display: none; }
+  .modulex-alt-plak-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-alt-plak-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-alt-plak-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-alt-plak-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-alt-plak-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-alt-plak-dugme:hover { transform: translateY(-2px); }
+  .modulex-alt-plak-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-alt-plak-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-alt-plak-dugme .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-alt-plak-bag { color: inherit; text-decoration: none; transition: color 0.2s ease; }
+  .modulex-alt-plak-bag:hover { color: --accentInk--; text-decoration: underline; text-underline-offset: 4px; }
+  .modulex-alt-plak-bag[aria-current="page"] { color: --accentInk--; font-weight: 700; }
+  .modulex-alt-plak-logo { display: inline-flex; align-items: center; gap: 10px; color: inherit; text-decoration: none; }
+  .modulex-alt-plak-logo img { width: auto; max-height: --logoH--; }
+  .modulex-alt-plak-ad { font-family: var(--mx-font-heading, inherit); font-size: 1.4rem; font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; }
+  .modulex-alt-plak-bbaslik { margin-block-end: 14px; color: --accentInk--; font-size: 0.8rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; }
+  .modulex-alt-plak-sayfalar, .modulex-alt-plak-baglantilar, .modulex-alt-plak-iletisim, .modulex-alt-plak-yasal { display: grid; gap: 9px; }
+  .modulex-alt-plak-il { display: flex; align-items: flex-start; gap: 10px; }
+  .modulex-alt-plak-il-ic { display: grid; gap: 2px; }
+  .modulex-alt-plak-il-etiket { color: --muted--; font-size: 0.8rem; }
+  .modulex-alt-plak-il-ikon { flex: none; color: --accentInk--; font-size: 20px; }
+  .modulex-alt-plak-saatler { display: grid; gap: 6px; }
+  .modulex-alt-plak-saat { display: flex; justify-content: space-between; gap: 16px; }
+  .modulex-alt-plak-saat dd { margin: 0; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .modulex-alt-plak-sosyal { display: flex; flex-wrap: wrap; gap: 10px; }
+  .modulex-alt-plak-sosyal-a { display: inline-grid; place-items: center; width: 42px; height: 42px; border: 1px solid --cizgi--; border-radius: 50%; color: inherit; font-size: 18px; transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease, transform 0.25s ease; }
+  .modulex-alt-plak-sosyal-a:hover { border-color: --accent--; background: --accent--; color: --accentText--; transform: translateY(-2px); }
+  .modulex-alt-plak-hakkinda { max-width: 46ch; color: --muted--; }
+  .modulex-alt-plak-telif { display: flex; flex-wrap: wrap; gap: 4px 14px; color: --muted--; font-size: 0.9rem; }
+  .modulex-alt-plak-dil:empty { display: none; }
+  .modulex-alt-plak-yukari { display: inline-grid; place-items: center; flex: none; width: 46px; height: 46px; border-radius: 50%; background: --accent--; color: --accentText--; text-decoration: none; transition: transform 0.25s ease; }
+  .modulex-alt-plak-yukari:hover { transform: translateY(-3px); }
+  .modulex-alt-plak-bulten { display: grid; gap: 8px; }
+  .modulex-alt-plak-nl-etiket { font-size: 0.9rem; font-weight: 700; }
+  .modulex-alt-plak-nl-satir { display: flex; flex-wrap: wrap; gap: 8px; }
+  .modulex-alt-plak-nl-girdi { flex: 1 1 200px; min-width: 0; min-height: 48px; padding: 10px 18px; border: 1px solid --cizgi--; border-radius: 999px; background: --bg--; color: --text--; font: inherit; }
+  .modulex-alt-plak-nl-dugme { display: inline-flex; align-items: center; gap: 6px; min-height: 48px; padding: 10px 22px; border: 0; border-radius: 999px; background: --accent--; color: --accentText--; font: inherit; font-weight: 700; transition: transform 0.2s ease; }
+  .modulex-alt-plak-nl-dugme:hover { transform: translateY(-2px); }
+  .modulex-alt-plak-nl-dugme .material-symbols-outlined { font-size: 18px; }
+  .modulex-alt-plak-nl-durum:empty { display: none; }
+  .modulex-alt-plak-nl-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.4rem, 2.6vw, 2rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1.15; }
+  .modulex-alt-plak-nl-metin { color: --muted--; }
+
+  .modulex-alt-plak-pl-izgara { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: clamp(32px, 5vw, 72px); align-items: center; }
+  .modulex-alt-plak-pl-sahne { position: relative; padding-inline-end: 36%; }
+  .modulex-alt-plak-pl-kilif { position: relative; z-index: 1; display: grid; align-content: center; gap: 16px; min-height: 320px; padding: clamp(24px, 3vw, 36px); border-radius: 6px; background-color: color-mix(in srgb, --accent-- 18%, --bg--); background-image: linear-gradient(150deg, color-mix(in srgb, --accent-- 26%, transparent), transparent 70%); box-shadow: 0 30px 50px -30px color-mix(in srgb, --bg-- 90%, transparent), inset 0 0 0 1px --cizgi--; }
+  .modulex-alt-plak-pl-disk { position: absolute; z-index: 0; inset-block-start: 50%; inset-inline-end: 0; display: grid; place-items: center; width: 60%; aspect-ratio: 1; margin-block-start: -30%; border-radius: 50%; background: conic-gradient(from 20deg, transparent 0 8%, color-mix(in srgb, --text-- 16%, transparent) 12%, transparent 17% 58%, color-mix(in srgb, --text-- 12%, transparent) 62%, transparent 67%), repeating-radial-gradient(circle, color-mix(in srgb, --text-- 6%, --bg--) 0 2px, color-mix(in srgb, --text-- 22%, --bg--) 2px 3px); box-shadow: 0 0 0 2px --cizgi--, 0 24px 40px -24px color-mix(in srgb, --bg-- 90%, transparent); translate: -12% 0; animation: modulex-alt-plak-pl-don 3.2s linear infinite paused; transition: translate 0.7s cubic-bezier(0.2, 0.8, 0.2, 1); }
+  [dir="rtl"] .modulex-alt-plak-pl-disk { translate: 12% 0; }
+  .modulex-alt-plak-pl-sahne:hover .modulex-alt-plak-pl-disk { translate: 0 0; animation-play-state: running; }
+  @keyframes modulex-alt-plak-pl-don { to { rotate: 360deg; } }
+  .modulex-alt-plak-pl-disk::after { content: ""; position: absolute; inset: 0; width: 10px; height: 10px; margin: auto; border-radius: 50%; background: --bg--; }
+  .modulex-alt-plak-pl-etiket { display: grid; place-items: center; width: 36%; aspect-ratio: 1; padding: 8px; overflow: hidden; border-radius: 50%; background: --accent--; color: --accentText--; font-size: clamp(0.6rem, 1vw, 0.78rem); font-weight: 800; letter-spacing: 0.06em; line-height: 1.1; text-align: center; text-transform: uppercase; box-shadow: 0 0 0 4px color-mix(in srgb, --accent-- 40%, transparent); }
+  .modulex-alt-plak-pl-liste { display: grid; gap: 28px; }
+  .modulex-alt-plak-pl-yan { display: grid; gap: 8px; }
+  .modulex-alt-plak-pl-yanbas { display: flex; align-items: center; gap: 12px; color: --accentInk--; font-size: 0.8rem; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; }
+  .modulex-alt-plak-pl-yanbas::after { content: ""; flex: 1; height: 1px; background: --cizgi--; }
+  .modulex-alt-plak-pl-parca { counter-reset: modulex-alt-plak-pl; display: grid; }
+  .modulex-alt-plak-pl-parca li { counter-increment: modulex-alt-plak-pl; display: flex; align-items: center; gap: 14px; padding-block: 9px; border-block-end: 1px solid --cizgi--; transition: padding 0.3s ease; }
+  .modulex-alt-plak-pl-parca li::before { content: counter(modulex-alt-plak-pl, decimal-leading-zero); flex: none; width: 2.2em; color: --muted--; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.85rem; font-variant-numeric: tabular-nums; }
+  .modulex-alt-plak-pl-parca li:hover { padding-inline-start: 10px; }
+  .modulex-alt-plak-pl-eq { display: inline-flex; align-items: flex-end; gap: 2px; height: 14px; margin-inline-start: auto; visibility: hidden; }
+  .modulex-alt-plak-pl-eq span { width: 3px; height: 100%; background: --accent--; transform-origin: 50% 100%; animation: modulex-alt-plak-pl-eq 0.9s ease-in-out infinite alternate; }
+  .modulex-alt-plak-pl-eq span:nth-child(2) { animation-delay: -0.3s; }
+  .modulex-alt-plak-pl-eq span:nth-child(3) { animation-delay: -0.6s; }
+  .modulex-alt-plak-pl-parca li:hover .modulex-alt-plak-pl-eq { visibility: visible; }
+  @keyframes modulex-alt-plak-pl-eq { from { transform: scaleY(0.25); } to { transform: scaleY(1); } }
+  .modulex-alt-plak-pl-not { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 22px; padding: 20px; border: 1px dashed --cizgi--; border-radius: 6px; font-size: 0.92rem; }
+  .modulex-alt-plak-pl-dip { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; margin-block-start: clamp(32px, 5vw, 52px); padding-block-start: 20px; border-block-start: 1px solid --cizgi--; }
+  .modulex-alt-plak-pl-dip .modulex-alt-plak-telif { margin-inline-end: auto; }
+  .modulex-alt-plak-pl-yasal { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 0.9rem; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-alt-plak :is(.modulex-alt-plak-pl-yanbas, .modulex-alt-plak-pl-etiket) { letter-spacing: 0; }
+  @media (max-width: 1024px) {
+    .modulex-alt-plak-pl-izgara { grid-template-columns: minmax(0, 1fr); }
+  }
+  @media (max-width: 768px) {
+    .modulex-alt-plak-pl-sahne { padding-inline-end: 26%; }
+    .modulex-alt-plak-pl-kilif { min-height: 260px; }
+  }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-alt-plak :is(.modulex-alt-plak-baslik, .modulex-alt-plak-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-alt-plak-baslik { line-height: 1.35; }
+  @media (max-width: 768px) {
+    .modulex-alt-plak { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-alt-plak *, .modulex-alt-plak *::before, .modulex-alt-plak *::after { animation: none !important; transition: none !important; }
+  }
+</style>

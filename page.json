@@ -1,0 +1,88 @@
+{
+  "data": [
+    {
+      "name": {
+        "tr": "Avlu",
+        "en": "Courtyard",
+        "ar": "الفناء"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "",
+      "url": "",
+      "index": 0,
+      "icon": "info",
+      "desing": {
+        "header": [],
+        "body": [
+          "mjyhmt",
+          "qr4lo5",
+          "vcj8co"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Avlu ölçüleri ve dinleyici notları (kurgusal).",
+        "en": "Courtyard levels and listener notes (fictional).",
+        "ar": "مستويات الفناء وملاحظات المستمعين (افتراضي)."
+      }
+    },
+    {
+      "id": "zg9nx2veck",
+      "name": {
+        "tr": "Galeri",
+        "en": "Gallery",
+        "ar": "المعرض"
+      },
+      "description": {
+        "tr": "Konser hikâyeleri; görseller temsilîdir.",
+        "en": "Concert stories; images are representative.",
+        "ar": "قصص الحفلات؛ الصور تمثيلية."
+      },
+      "path": "referanslar",
+      "icon": "photo_library",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "4q3a9y",
+          "vcj8co"
+        ],
+        "footer": []
+      },
+      "index": 1
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": "Contact",
+        "ar": "اتصل بنا"
+      },
+      "status": "play",
+      "id": "iletisim",
+      "path": "iletisim",
+      "category": "",
+      "url": "",
+      "index": 2,
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "swv7ol",
+          "k8mp01"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Adres, telefon ve çalışma saatleri.",
+        "en": "Address, phone and opening hours.",
+        "ar": "العنوان والهاتف وساعات العمل."
+      }
+    }
+  ],
+  "desc": []
+}

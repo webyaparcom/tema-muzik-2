@@ -1,0 +1,48 @@
+{
+  "name": {
+    "tr": "Avlu",
+    "en": "Courtyard",
+    "ar": "الفناء"
+  },
+  "status": "play",
+  "category": "",
+  "id": "hakkimizda",
+  "url": "",
+  "path": "hakkimizda",
+  "index": 0,
+  "icon": "info",
+  "desing": {
+    "header": [],
+    "body": [
+      "mjyhmt",
+      "qr4lo5",
+      "vcj8co"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Avlu ölçüleri ve dinleyici notları (kurgusal).",
+    "en": "Courtyard levels and listener notes (fictional).",
+    "ar": "مستويات الفناء وملاحظات المستمعين (افتراضي)."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "Avlu",
+    "en": "Courtyard",
+    "ar": "الفناء"
+  },
+  "keyword": {
+    "tr": "hakkımızda",
+    "en": "about",
+    "ar": "من نحن"
+  },
+  "text": {},
+  "update": "2026-11-16T22:47:24.803Z",
+  "date": "2026-10-30"
+}

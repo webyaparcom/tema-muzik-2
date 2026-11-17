@@ -1,0 +1,63 @@
+{
+  "name": "Alt Plak — kılıfından çıkan dönen plak + iki yüzlü parça listesi",
+  "description": "Koyu zeminde albüm kılıfı (logo, tanıtım, düğme, sosyal) ve arkasından taşan, oluklu bir plak: ortadaki etikette site adı; üzerine gelince plak kılıftan dışarı kayar ve dönmeye başlar. Yanında iki yüzlü parça listesi (sayfalar · bağlantılar; numaralı satırlar, hover'da ekolayzer çubukları) ve kesik çerçeveli kapak notu (iletişim + saatler). Altta telif, yasal, dil, başa dön. Footer bir plak kapağı: CSS oluklu disk (repeating-radial + conic yansıma) bağımsız rotate/translate özellikleriyle kayar ve döner (reduced-motion'da durur), gezinme numaralı parça listesi (CSS sayaç) — müzik, dans ve gece mekânları için nesne odaklı imza. Sayfalar site sayfalarından, iletişim desing → site ayarı, sosyal wmSocialBar, dil seçici {{langbar}}. Metinler dil sözlüğü / lang.json; renkler desing + var(--mx-site-*); mantıksal CSS → RTL.",
+  "version": "1.0.0",
+  "icon": "album",
+  "category": "footer",
+  "subCategory": "vinyl-record",
+  "tags": [
+    "footer",
+    "vinyl",
+    "record",
+    "tracklist",
+    "spin",
+    "rtl",
+    "fabrika"
+  ],
+  "desing": {
+    "max": "1200px",
+    "bosluk": "clamp(48px, 6vw, 80px)",
+    "yuvarlak": "18px",
+    "ust": "",
+    "baslik": "",
+    "metin": "",
+    "hakkinda": "",
+    "tel": "",
+    "eposta": "",
+    "adres": "",
+    "cta_ad": "",
+    "cta_url": "",
+    "rightsText": "",
+    "bg": "var(--mx-site-text, #111318)",
+    "text": "var(--mx-site-bg, #ffffff)",
+    "muted": "color-mix(in srgb, var(--mx-site-bg, #ffffff) 78%, var(--mx-site-text, #111318))",
+    "kartBg": "color-mix(in srgb, var(--mx-site-bg, #ffffff) 7%, transparent)",
+    "cizgi": "color-mix(in srgb, var(--mx-site-bg, #ffffff) 18%, transparent)",
+    "accent": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 55%, var(--mx-site-bg, #ffffff))",
+    "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 45%, var(--mx-site-bg, #ffffff))",
+    "accentText": "var(--mx-site-text, #111318)",
+    "vurguBg": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 55%, var(--mx-site-bg, #ffffff))",
+    "vurguText": "var(--mx-site-text, #111318)",
+    "logoH": "48px",
+    "bgcolor": "var(--mx-site-text, #111318)",
+    "color": "var(--mx-site-bg, #ffffff)"
+  },
+  "data": [],
+  "veri": {
+    "statik": true,
+    "dinamik": false,
+    "kaynak": "desing",
+    "alanlar": {
+      "hakkinda": "kısa tanıtım (dil sözlüğü; yoksa setting.description)",
+      "tel": "telefon (yoksa setting.phone)",
+      "eposta": "e-posta (yoksa setting.email)",
+      "adres": "adres (dil sözlüğü; yoksa setting.address)",
+      "services": "bağlantı listesi [{ name, href }] (footer-10)",
+      "hours": "çalışma saatleri [{ days, time }]",
+      "legal": "yasal bağlantılar [{ text, href }]",
+      "social": "sosyal hesaplar [{ ad, url }] (yoksa site ayarı)",
+      "rightsText": "telif satırı (yoksa @all-rights@)",
+      "nlTitle": "bülten başlığı (bülten formu yalnız başlık/metin + alıcı e-posta varken)"
+    }
+  }
+}
