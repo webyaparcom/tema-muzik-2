@@ -3,17 +3,23 @@
   "name": {
     "tr": "Galeri",
     "en": "Gallery",
-    "ar": "المعرض"
+    "ar": "المعرض",
+    "de": "Galerie",
+    "ru": "Галерея"
   },
   "description": {
     "tr": "Konser hikâyeleri; görseller temsilîdir.",
     "en": "Concert stories; images are representative.",
-    "ar": "قصص الحفلات؛ الصور تمثيلية."
+    "ar": "قصص الحفلات؛ الصور تمثيلية.",
+    "de": "Konzertgeschichten; die Bilder sind symbolisch.",
+    "ru": "Истории концертов; изображения условные."
   },
   "keyword": {
     "tr": "konser galerisi",
     "en": "concert gallery",
-    "ar": "معرض الحفلات"
+    "ar": "معرض الحفلات",
+    "de": "Konzertgalerie",
+    "ru": "галерея концертов"
   },
   "path": "referanslar",
   "icon": "photo_library",
@@ -33,7 +39,9 @@
   "title": {
     "tr": "Galeri",
     "en": "Gallery",
-    "ar": "المعرض"
+    "ar": "المعرض",
+    "de": "Galerie",
+    "ru": "Галерея"
   },
   "date": "2026-11-16T22:42:39.418Z",
   "update": "2026-11-16T22:47:24.820Z"

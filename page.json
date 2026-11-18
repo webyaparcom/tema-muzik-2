@@ -4,7 +4,9 @@
       "name": {
         "tr": "Avlu",
         "en": "Courtyard",
-        "ar": "الفناء"
+        "ar": "الفناء",
+        "de": "Hof",
+        "ru": "Двор"
       },
       "status": "play",
       "id": "hakkimizda",
@@ -26,7 +28,9 @@
       "description": {
         "tr": "Avlu ölçüleri ve dinleyici notları (kurgusal).",
         "en": "Courtyard levels and listener notes (fictional).",
-        "ar": "مستويات الفناء وملاحظات المستمعين (افتراضي)."
+        "ar": "مستويات الفناء وملاحظات المستمعين (افتراضي).",
+        "de": "Hofmaße und Notizen des Publikums (fiktiv).",
+        "ru": "Размеры двора и заметки слушателей (вымышленно)."
       }
     },
     {
@@ -34,12 +38,16 @@
       "name": {
         "tr": "Galeri",
         "en": "Gallery",
-        "ar": "المعرض"
+        "ar": "المعرض",
+        "de": "Galerie",
+        "ru": "Галерея"
       },
       "description": {
         "tr": "Konser hikâyeleri; görseller temsilîdir.",
         "en": "Concert stories; images are representative.",
-        "ar": "قصص الحفلات؛ الصور تمثيلية."
+        "ar": "قصص الحفلات؛ الصور تمثيلية.",
+        "de": "Konzertgeschichten; die Bilder sind symbolisch.",
+        "ru": "Истории концертов; изображения условные."
       },
       "path": "referanslar",
       "icon": "photo_library",
@@ -59,7 +67,9 @@
       "name": {
         "tr": "İletişim",
         "en": "Contact",
-        "ar": "اتصل بنا"
+        "ar": "اتصل بنا",
+        "de": "Kontakt",
+        "ru": "Контакты"
       },
       "status": "play",
       "id": "iletisim",
@@ -80,7 +90,9 @@
       "description": {
         "tr": "Adres, telefon ve çalışma saatleri.",
         "en": "Address, phone and opening hours.",
-        "ar": "العنوان والهاتف وساعات العمل."
+        "ar": "العنوان والهاتف وساعات العمل.",
+        "de": "Adresse, Telefon und Öffnungszeiten.",
+        "ru": "Адрес, телефон и часы работы."
       }
     }
   ],

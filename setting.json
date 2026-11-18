@@ -4,12 +4,16 @@
   "description": {
     "tr": "Revak Akustik: Gaziantep’te taş revaklı avluda akustik konserler — ud, kanun, gitar ve vokal geceleri; hikâye galerisi, sıradaki konsere geri sayım ve yer ayırtma. Demo site; içerik kurgusaldır.",
     "en": "Revak Acoustic: acoustic concerts in a stone-arcaded courtyard in Gaziantep — oud, qanun, guitar and vocal nights; a story gallery, a countdown to the next concert and seat booking. Demo site; content is fictional.",
-    "ar": "رواق أكوستيك: حفلات أكوستيك في فناء حجري بأروقة في غازي عنتاب — ليالي العود والقانون والغيتار والغناء؛ معرض قصص وعدّ تنازلي للحفلة القادمة وحجز المقاعد. موقع تجريبي؛ المحتوى افتراضي."
+    "ar": "رواق أكوستيك: حفلات أكوستيك في فناء حجري بأروقة في غازي عنتاب — ليالي العود والقانون والغيتار والغناء؛ معرض قصص وعدّ تنازلي للحفلة القادمة وحجز المقاعد. موقع تجريبي؛ المحتوى افتراضي.",
+    "de": "Revak Akustik: Akustikkonzerte in einem steinernen Arkadenhof in Gaziantep — Nächte mit Oud, Kanun, Gitarre und Gesang; eine Story-Galerie, eine Countdown-Zähler zum nächsten Konzert und Sitzplatzreservierung. Demo-Seite; Inhalt ist fiktiv.",
+    "ru": "Revak Akustik: акустические концерты во дворе с каменными аркадами в Газиантепе — вечера с удом, кануном, гитарой и вокалом; галерея историй, обратный отсчет до следующего концерта и бронирование мест. Демо-сайт; контент вымышлен."
   },
   "keyword": {
     "tr": "akustik konser, canlı müzik, konser mekânı, ud gecesi, avlu konseri, Gaziantep",
     "en": "acoustic concert, live music, concert venue, oud night, courtyard concert, Gaziantep",
-    "ar": "حفلة أكوستيك، موسيقى حية، مكان حفلات، ليلة العود، حفلة في الفناء، غازي عنتاب"
+    "ar": "حفلة أكوستيك، موسيقى حية، مكان حفلات، ليلة العود، حفلة في الفناء، غازي عنتاب",
+    "de": "Akustikkonzert, Live-Musik, Konzertlocation, Oud-Nacht, Hofkonzert, Gaziantep",
+    "ru": "акустический концерт, живая музыка, концертная площадка, вечер уд, концерт во дворе, Газиантеп"
   },
   "category": "Kurumsal",
   "name": "Revak Akustik",
@@ -18,15 +22,27 @@
     "tr": true,
     "en": true,
     "ar": true,
-    "de": false,
-    "ru": false,
+    "de": true,
+    "ru": true,
     "es": false,
     "fr": false,
     "it": false,
     "ja": false,
     "zh": false,
     "ko": false,
-    "pt": false
+    "pt": false,
+    "fa": false,
+    "he": false,
+    "ur": false,
+    "nl": false,
+    "pl": false,
+    "uk": false,
+    "az": false,
+    "ka": false,
+    "el": false,
+    "bg": false,
+    "ro": false,
+    "hi": false
   },
   "logo": "logo.png",
   "multi": false,

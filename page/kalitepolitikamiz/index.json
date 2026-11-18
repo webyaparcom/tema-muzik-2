@@ -3,17 +3,23 @@
   "name": {
     "tr": "Kalite Politikamız",
     "en": "Quality Policy",
-    "ar": "سياسة الجودة"
+    "ar": "سياسة الجودة",
+    "de": "Qualitätspolitik",
+    "ru": "Политика качества"
   },
   "description": {
     "tr": "Kalite politikamız",
     "en": "Our quality policy",
-    "ar": "سياسة الجودة لدينا"
+    "ar": "سياسة الجودة لدينا",
+    "de": "Unsere Qualitätspolitik",
+    "ru": "Наша политика качества"
   },
   "keyword": {
     "tr": "Kalite Politikamız",
     "en": "quality policy, quality, continuous improvement",
-    "ar": "سياسة الجودة, الجودة, التحسين المستمر"
+    "ar": "سياسة الجودة, الجودة, التحسين المستمر",
+    "de": "Qualitätspolitik",
+    "ru": "Политика качества"
   },
   "path": "kalitepolitikamiz",
   "icon": "verified",
@@ -29,12 +35,16 @@
   "text": {
     "tr": "<h2>Kalite Politikamız</h2>\n<p>120 kişilik sınır, telefonsuz ilk şarkı, sanatçıya adil pay ve engelsiz avlu girişi.</p>",
     "en": "<h2>Our quality policy</h2>\n<p>A 120-seat limit, a phone-free first song, a fair share for the artist and step-free access to the courtyard.</p>",
-    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>حدّ أقصى 120 مقعدًا، وأغنية أولى بلا هواتف، وحصة عادلة للفنان، ودخول إلى الفناء بلا عوائق.</p>"
+    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>حدّ أقصى 120 مقعدًا، وأغنية أولى بلا هواتف، وحصة عادلة للفنان، ودخول إلى الفناء بلا عوائق.</p>",
+    "de": "<h2>Unsere Qualitätspolitik</h2>\n<p>Begrenzung auf 120 Personen, erstes Lied ohne Telefon, faire Beteiligung für Künstler und barrierefreier Zugang zum Innenhof.</p>",
+    "ru": "<h2>Наша политика качества</h2>\n<p>Ограничение в 120 человек, первая песня без телефонов, справедливая доля артистам и безбарьерный вход во двор.</p>"
   },
   "title": {
     "tr": "Kalite Politikamız",
     "en": "Quality Policy",
-    "ar": "سياسة الجودة"
+    "ar": "سياسة الجودة",
+    "de": "Qualitätspolitik",
+    "ru": "Политика качества"
   },
   "date": "2026-11-16T22:42:39.055Z",
   "update": "2026-11-16T22:47:24.850Z",

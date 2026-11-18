@@ -3,17 +3,23 @@
   "name": {
     "tr": "Vizyon",
     "en": "Vision",
-    "ar": "الرؤية"
+    "ar": "الرؤية",
+    "de": "Vision",
+    "ru": "Видение"
   },
   "description": {
     "tr": "Vizyonumuz",
     "en": "Our vision",
-    "ar": "رؤيتنا"
+    "ar": "رؤيتنا",
+    "de": "Unsere Vision",
+    "ru": "Наше видение"
   },
   "keyword": {
     "tr": "Vizyon",
     "en": "vision, our vision, goals",
-    "ar": "الرؤية, رؤيتنا, الأهداف"
+    "ar": "الرؤية, رؤيتنا, الأهداف",
+    "de": "Vision",
+    "ru": "Видение"
   },
   "path": "vizyon",
   "icon": "visibility",
@@ -29,12 +35,16 @@
   "text": {
     "tr": "<h2>Vizyonumuz</h2>\n<p>Şehrin eski avlularını yeniden müzikle dolduran bir sahne olmak.</p>",
     "en": "<h2>Our vision</h2>\n<p>To be a stage that fills the city’s old courtyards with music again.</p>",
-    "ar": "<h2>رؤيتنا</h2>\n<p>أن نكون مسرحًا يعيد ملء أفنية المدينة القديمة بالموسيقى.</p>"
+    "ar": "<h2>رؤيتنا</h2>\n<p>أن نكون مسرحًا يعيد ملء أفنية المدينة القديمة بالموسيقى.</p>",
+    "de": "<h2>Unsere Vision</h2>\n<p>Ein Ort zu sein, der die alten Höfe der Stadt wieder mit Musik erfüllt.</p>",
+    "ru": "<h2>Наше видение</h2>\n<p>Стать сценой, которая вновь наполняет старинные дворы города музыкой.</p>"
   },
   "title": {
     "tr": "Vizyon",
     "en": "Vision",
-    "ar": "الرؤية"
+    "ar": "الرؤية",
+    "de": "Vision",
+    "ru": "Видение"
   },
   "date": "2026-11-16T22:42:39.055Z",
   "update": "2026-11-16T22:47:24.846Z",
