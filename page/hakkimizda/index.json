@@ -2,7 +2,9 @@
   "name": {
     "tr": "Avlu",
     "en": "Courtyard",
-    "ar": "الفناء"
+    "ar": "الفناء",
+    "de": "Hof",
+    "ru": "Двор"
   },
   "status": "play",
   "category": "",
@@ -24,7 +26,9 @@
   "description": {
     "tr": "Avlu ölçüleri ve dinleyici notları (kurgusal).",
     "en": "Courtyard levels and listener notes (fictional).",
-    "ar": "مستويات الفناء وملاحظات المستمعين (افتراضي)."
+    "ar": "مستويات الفناء وملاحظات المستمعين (افتراضي).",
+    "de": "Hofmaße und Notizen des Publikums (fiktiv).",
+    "ru": "Размеры двора и заметки слушателей (вымышленно)."
   },
   "spot": {
     "tr": "",
@@ -35,12 +39,16 @@
   "title": {
     "tr": "Avlu",
     "en": "Courtyard",
-    "ar": "الفناء"
+    "ar": "الفناء",
+    "de": "Hof",
+    "ru": "Двор"
   },
   "keyword": {
     "tr": "hakkımızda",
     "en": "about",
-    "ar": "من نحن"
+    "ar": "من نحن",
+    "de": "Über uns",
+    "ru": "О нас"
   },
   "text": {},
   "update": "2026-11-16T22:47:24.803Z",
